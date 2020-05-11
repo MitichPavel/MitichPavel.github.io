@@ -2,12 +2,13 @@
 
 # dependencies
 /node_modules
+/nerds/node_modules
 
 # testing
 /coverage
 
 # production
-/dist
+/nerds/dist
 
 # misc
 .DS_Store
