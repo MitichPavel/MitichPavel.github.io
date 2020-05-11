@@ -1,0 +1,137 @@
+.btn {
+	width: 240px;
+	height: 50px;
+	border-radius: 4px;
+	color: #ffffff;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 16px;
+
+	&_red {
+		background-color: $color-red;
+
+		&:hover {
+			background-color: $color-red-hover;
+		}
+
+		&:active {
+			background-color: #d7373b;
+		}
+	}
+
+	&_green {
+		background-color: #00ca74;
+		
+		&:hover {
+			background-color: #00bc6c;
+		}
+
+		&:active {
+			background-color: #00aa62;
+		}
+	}
+
+	&_yellow {
+		background-color: #efc84a;
+
+		&:hover {
+			background-color: #eab534;
+		}
+
+		&:active {
+			background-color: #e5a722;
+		}
+	}
+
+	&_slider {
+		margin-top: 42px;
+	}
+
+	&_offer {
+		margin-top: 30px;
+	}
+
+	&__medium {
+		width: 219px;
+		height: 50px;
+	}
+
+	&__small {
+		width: 160px;
+		height: 50px;
+	}
+	&_submit {
+		margin-top: 47px;
+	}
+	&_filter {
+		width: 260px;
+		height: 50px;
+		background-color: #eeeeee;
+		color: #000000;
+		font-size: 16px;
+		font-weight: 500;
+		line-height: 18px;
+		border: none;
+		border-radius: 4px;
+		&:hover {
+			background-color: #dfdfdf;
+		}
+		&:active {
+			box-shadow: inset 0 3px 0 rgba(0, 1, 1, 0.1);
+			background-color: #d5d5d5;
+			color: hsla(0, 0%, 0%, 0.3);  
+		}
+	}
+	&_buy {
+		width: 200px;
+		height: 50px;
+		background-color: #fb565a;
+	}
+	&_nav-small {
+		width: 50px;
+		height: 50px;
+		background-color: #eeeeee;
+		color: #000000;
+		font-size: 16px;
+		font-weight: 500;
+		line-height: 18px;
+		border-radius: 3px;
+		border: none;
+		&:hover {
+			background-color: #dfdfdf;
+		}
+		&:active {
+			box-shadow: inset 0 3px 0 rgba(0, 1, 1, 0.1);
+			background-color: #d5d5d5;
+			color: rgba(0, 0, 0, 0.3);
+		}
+	}
+	&_nav-active {
+		background-color: #fff;
+		border: 3px solid #dbdbdb;
+	}
+	&_nav-large {
+		width: 260px;
+		height: 50px;
+		background-color: #eeeeee;
+		color: #000000;
+		font-size: 16px;
+		font-weight: 500;
+		line-height: 18px;
+		text-transform: uppercase;
+		border-radius: 3px;
+		border: none;
+		&:hover {
+			background-color: #dfdfdf;
+		}
+		&:active {
+			box-shadow: inset 0 3px 0 rgba(0, 1, 1, 0.1);
+			background-color: #d5d5d5;
+			color: rgba(0, 0, 0, 0.3);
+		}
+	}
+	&:active {
+		box-shadow: inset 0 3px 0 rgba(0, 1, 1, 0.1);
+		color: hsla(0, 0%, 100%, 0.3);
+	}
+}

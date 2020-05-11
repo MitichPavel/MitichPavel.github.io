@@ -1,0 +1,29 @@
+@import 'libs/bootstrap-reboot.min';
+@import 'libs/font';
+@import 'libs/slick';
+
+@import 'base/variables';
+@import 'base/mixins';
+
+* {
+	font-family: 'Roboto', sans-serif;
+}
+
+.container {
+	max-width: 1160px;
+	margin: 0 auto;
+}
+
+label {
+	margin-bottom: 0;
+}
+
+@import 'blocks/header';
+@import 'blocks/btn';
+@import 'blocks/slider';
+@import 'blocks/offer';
+@import 'blocks/info';
+@import 'blocks/works';
+@import 'blocks/footer';
+@import 'blocks/modal';
+@import 'blocks/catalog';
