@@ -1,0 +1,34 @@
+{
+    "en": {
+        "headerContact": "Contact",
+        "mainSpecialization": ["Poliglot", "Busines coach", "Lorem lorem lorem"],
+        "mainName": "Natalia Antoshchuk",
+        "aboutMeTitle": "A little bit about me",
+        "aboutMeDescr": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus aut repellat sunt distinctio iusto saepe eum cupiditate consequatur odio ad ex, neque voluptas tempore, atque facilis ducimus porro excepturi placeat?",
+        "aboutMeMore": "More about me",
+        "aboutMePhone": "Call me",
+        "projectsTitle": "My Projects",
+        "projectsName": ["Language school", "Foreign help"],
+        "projectsDescr": ["Lorem ipsum dolor, sit amet consectetur adipisicing elit.", "Lorem ipsum dolor, sit amet consectetur adipisicing elit."],
+        "footerTitle": "Social links & Contats",
+        "footerAutorText": "Made by",
+        "modalTitle": "Contact me",
+        "modalName": "Nataliia Antoshchuk"
+    },
+    "ru": {
+        "headerContact": "Контакты",
+        "mainSpecialization": ["Полиголот", "Бизнес коуч", "Лорем, лорем, лорем"],
+        "mainName": "Наталья Антощук",
+        "aboutMeTitle": "Обо мне",
+        "aboutMeDescr": "Здесь обычно пишут какой-то текст. Пусть это и будет пример текста для создания видимости контента. Когда дойдет дело до тестирования сайта и дальнейшей выгрузки его на сервер, то текст в этих блоках будет заменен!",
+        "aboutMeMore": "Немного больше обо мне",
+        "aboutMePhone": "Позвони мне",
+        "projectsTitle": "Мои Проекты",
+        "projectsName": ["Языковая школа", "Помощ иностранцам"],
+        "projectsDescr": ["Здесь обычно пишут какой-то текст. Пусть это и будет пример текста для создания видимости контента.", "Здесь обычно пишут какой-то текст. Пусть это и будет пример текста для создания видимости контента."],
+        "footerTitle": "Соцсети & Контакты",
+        "footerAutorText": "Создано",
+        "modalTitle": "Свяжись со мной",
+        "modalName": "Nataliia Antoshchuk"
+    }
+}
