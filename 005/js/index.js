@@ -78,7 +78,7 @@ window.onload = function(){
                 chooseLang();
             }
         };
-        xhr.open('get', '../languages.json');
+        xhr.open('get', 'languages.json');
         xhr.send();
 
         // Changing of text content
