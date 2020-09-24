@@ -1,10 +1,4 @@
 window.onload = function(){
-
-    const indexLogo = document.querySelector('.header__logo_index');
-    indexLogo.onclick = function(e){
-        e.preventDefault();
-    };
-
     // Modal
     var contact = document.querySelector('.header__contact');
     var modal = document.querySelector('.modal');
@@ -12,7 +6,7 @@ window.onload = function(){
     var socialModalItems = document.querySelectorAll('.social__item_modal');
     var modalItems = document.querySelectorAll('.modal__item');
     function swichModal(){
-        modal.classList.toggle('modal_hidden');
+        modal.classList.toggle('hidden');
     }
     contact.addEventListener('click', swichModal);
     closeModal.addEventListener('click', swichModal);
@@ -39,7 +33,6 @@ window.onload = function(){
         footerAutorText: document.querySelector('.footer__autor-text'),
         modalTitle: document.querySelector('.modal__title'),
     };
-
     function changeLang(){
         var customLang = localStorage.getItem('customLang');
         var deviceLang = navigator.language.slice(0,2);
