@@ -1,0 +1,11 @@
+0000000000000000000000000000000000000000 88c456efdee4e667785c1eb3f172d419416b5b86 Pavlo <mitich.pavel@gmail.com> 1578471993 +0100	commit (initial): Created gulpfile.js
+88c456efdee4e667785c1eb3f172d419416b5b86 1178d3f31624f8a659ec627396c4c58676902c77 Pavlo <mitich.pavel@gmail.com> 1578487143 +0100	commit: removed gulpfile.js to the good folder
+1178d3f31624f8a659ec627396c4c58676902c77 3026e15c271f650f416f65849a4a36bf441b69ae Pavlo <mitich.pavel@gmail.com> 1578490137 +0100	commit: fixed size and font-size for btn on iphone 5s
+3026e15c271f650f416f65849a4a36bf441b69ae 3026e15c271f650f416f65849a4a36bf441b69ae Pavlo <mitich.pavel@gmail.com> 1578606029 +0100	checkout: moving from master to fixingTextOfButton
+3026e15c271f650f416f65849a4a36bf441b69ae cd42b856d516d00f338885502585db832467d03d Pavlo <mitich.pavel@gmail.com> 1578606249 +0100	commit: line-height = height of button
+cd42b856d516d00f338885502585db832467d03d d712282940e439bac484cc58cd9508d87a02415b Pavlo <mitich.pavel@gmail.com> 1578609092 +0100	commit: lin-height: auto  font-size 87.5%
+d712282940e439bac484cc58cd9508d87a02415b cd42b856d516d00f338885502585db832467d03d Pavlo <mitich.pavel@gmail.com> 1578609172 +0100	undo: commit: lin-height: auto  font-size 87.5%
+cd42b856d516d00f338885502585db832467d03d d223bd4f9981e655680abbacf3d78eebf558191d Pavlo <mitich.pavel@gmail.com> 1578609310 +0100	commit: line-height: auto font-size: ~=87%
+d223bd4f9981e655680abbacf3d78eebf558191d d712282940e439bac484cc58cd9508d87a02415b Pavlo <mitich.pavel@gmail.com> 1578609664 +0100	rebase: checkout refs/remotes/origin/fixingTextOfButton
+d712282940e439bac484cc58cd9508d87a02415b d223bd4f9981e655680abbacf3d78eebf558191d Pavlo <mitich.pavel@gmail.com> 1578700432 +0100	checkout: moving from d712282940e439bac484cc58cd9508d87a02415b to d712282940e439bac484cc58cd9508d87a02415b
+d223bd4f9981e655680abbacf3d78eebf558191d 3026e15c271f650f416f65849a4a36bf441b69ae Pavlo <mitich.pavel@gmail.com> 1578700551 +0100	checkout: moving from d223bd4f9981e655680abbacf3d78eebf558191d to master

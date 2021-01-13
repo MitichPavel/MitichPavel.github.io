@@ -1,0 +1,5 @@
+Merge remote-tracking branch 'refs/remotes/origin/fixingTextOfButton'
+
+Conflicts:
+	src/css/style.min.css
+	src/sass/_media.sass
