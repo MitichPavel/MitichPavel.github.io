@@ -1,0 +1,32 @@
+.icon {
+    display: inline-block;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 27px;
+    height: 27px;
+    border: 1px solid #2a2a2a;
+    border-radius: 100%;
+    margin-right: 5px;
+}
+.icon_ru {
+    background-image: url(../icons/flags/ru.svg);
+}
+.icon_en {
+    background-image: url(../icons/flags/en.svg);
+}
+.icon_de {
+    background-image: url(../icons/flags/de.svg);
+}
+.icon_es {
+    background-image: url(../icons/flags/es.svg);
+}
+.icon_be {
+    background-image: url(../icons/flags/be.svg);
+}
+.icon_pl {
+    background-image: url(../icons/flags/pl.svg);
+}
+.icon_ua {
+    background-image: url(../icons/flags/ua.svg);
+}

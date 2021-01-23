@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+	color: #2a2a2a;
+}
+body {
+    position: relative;
+    background-color: #fcfcfc;
+}
+ul {
+    list-style-type: none;
+}
+h1, h2, h3, h4, ol, ul, p, body {
+	margin: 0;
+	padding: 0;
+}
+
+@import 'libs/font.css';
+@import 'libs/animate.css';
+
+@import 'blocks/header';
+@import 'blocks/main';
+@import 'blocks/social';
+@import 'blocks/about-me';
+@import 'blocks/projects';
+@import 'blocks/footer';
+@import 'blocks/modal';
+@import 'blocks/lang-menu';
+@import 'blocks/icon';
+@import 'blocks/foreign-help';
+@import 'blocks/lang';
+@import 'blocks/language-school';
+
+
+
+@import 'libs/default-blocks';
+@import 'libs/media-queries';

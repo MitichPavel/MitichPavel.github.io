@@ -1,0 +1,25 @@
+.lang {
+    font-family: 'Montserrat', sans-serif;;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+.lang__title {
+    text-align: center;
+    padding: 0 3px 0 3px;
+}
+.lang__list {
+    margin: 25px auto 0 auto;
+    max-width: 320px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 20px;
+}
+.lang__item {
+    padding-left: 10px;
+    width: 50%;
+    margin: 25px auto 0 auto;
+}
+.lang__item:nth-child(2n-1){
+    padding-left: 0;
+}
