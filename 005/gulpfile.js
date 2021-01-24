@@ -51,4 +51,9 @@ gulp.task('fonts', function() {
 	.pipe(gulp.dest("dist/fonts/"));
 });
 
-gulp.task('default', gulp.parallel('watch', 'server', 'styles', 'html', 'scripts', 'fonts'));
+gulp.task('json', function() {
+	return gulp.src("src/**/**/languages.json")
+	.pipe(gulp.dest("dist/"));
+});
+
+gulp.task('default', gulp.parallel('watch', 'server', 'styles', 'html', 'scripts', 'fonts', 'json'));
