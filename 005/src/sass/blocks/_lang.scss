@@ -1,14 +1,18 @@
 .lang {
     font-family: 'Montserrat', sans-serif;;
     font-weight: 400;
-    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .lang__title {
     text-align: center;
     padding: 0 3px 0 3px;
+    margin: 40px 0 10px;
 }
 .lang__list {
-    margin: 25px auto 0 auto;
+    margin: 55px auto 25px;
     max-width: 320px;
     display: flex;
     flex-wrap: wrap;

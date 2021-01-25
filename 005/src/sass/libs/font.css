@@ -31,15 +31,16 @@
 
 @font-face {
 	font-family: 'icomoon';
-	src:  url('../../fonts/icomoon.eot?gc8t9n');
-	src:  url('../../fonts/icomoon.eot?gc8t9n#iefix') format('embedded-opentype'),
-		url('../../fonts/icomoon.ttf?gc8t9n') format('truetype'),
-		url('../../fonts/icomoon.woff?gc8t9n') format('woff'),
-		url('../../fonts/icomoon.svg?gc8t9n#icomoon') format('svg');
+	src:  url('../../fonts/icomoon.eot?8k6iyy');
+	src:  url('../../fonts/icomoon.eot?8k6iyy#iefix') format('embedded-opentype'),
+		url('../../fonts/icomoon.ttf?8k6iyy') format('truetype'),
+		url('../../fonts/icomoon.woff?8k6iyy') format('woff'),
+		url('../../fonts/icomoon.svg?8k6iyy#icomoon') format('svg');
 	font-weight: normal;
 	font-style: normal;
 	font-display: block;
 }
+
 [class^="icon-"], [class*=" icon-"] {
 	/* use !important to prevent issues with browser extensions that change fonts */
 	font-family: 'icomoon' !important;
@@ -62,9 +63,6 @@
 .icon-envelope-regular:before {
 	content: "\e903";
 }
-.icon-handshake-o:before {
-	content: "\e902";
-}
 .icon-phone:before {
 	content: "\e942";
 }
@@ -74,6 +72,6 @@
 .icon-github:before {
 	content: "\eab0";
 }
-.icon-arrow-up:before {
-	content: "\e904";
+.icon-arrow-down:before {
+	content: "\e900";
 }

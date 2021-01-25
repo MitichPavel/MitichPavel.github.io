@@ -10,7 +10,7 @@
 .header__logo {
 	height: 54px;
     width: 54px;
-    background: center / 55% no-repeat url('../icons/logo.svg');
+    background: center / 55% no-repeat url('../img/icons/logo.svg');
     border: 2px solid #1a1a1a;
     border-radius: 100%;
 }
@@ -19,7 +19,7 @@
     pointer-events: none;
 }
 .header__contact {
-    // removing styles of button
+    // removing default styles of button
     padding: 0;
     border: none;
     color: inherit;

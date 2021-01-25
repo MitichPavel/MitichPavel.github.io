@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="shortcut icon" href="icons/favicon.png" type="image/png">
+	<link rel="shortcut icon" href="img/icons/favicon.png" type="image/png">
 	<title>Натали Антощук</title>
 	<link rel="stylesheet" href="css/style.min.css">
 </head>
@@ -78,58 +78,20 @@
 		</section>
 	</div>
 
-	<div class="screen">
-		<section class="projects">
-			<h2 class="projects__title title projects__title_sm-hidden">Мои Проекты</h2>
-			<div class="projects__divider projects__divider_sm-hidden divider"></div>
-	
-			<ul class="projects__list">
-	
-				<li class="projects__item">
-					<a href="blocks/language-school.html" class="projects__link">
-						<div class="projects__icon-wrap">
-							<span class="projects__icon projects__icon_school icon-graduation-cap-solid"></span>
-							<span class="projects__icon-arrow icon-arrow-up"></span>
-						</div>
-						<div class="projects__wrap">
-							<h3 class="projects__name">
-								Языковая школа
-							</h3>
-							<h4 class="projects__subtitle">
-								Давай выучим иностранный язык
-							</h4>
-						</div>
-					</a>
-				</li>
-	
-				<li class="projects__item projects__item_xs-hidden wow animate__animated animate__flipInX">
-					<h2 class="projects__title title projects__title_sm">Мои Проекты</h2>
-					<span class="projects__line-wrap">
-						<span class="projects__line wow animate__animated animate__rotateIn animate__delay-1s"></span>
-					</span>
-				</li>
-	
-				<li class="projects__item">
-					<a href="blocks/foreign-help.html" class="projects__link">
-						<div class="projects__icon-wrap projects__icon-wrap_help">
-							<span class="projects__icon projects__icon_help icon-handshake-o"></span>
-							<span class="projects__icon-arrow icon-arrow-up"></span>
-						</div>
-						<div class="projects__wrap">
-							<h3 class="projects__name">
-								Помощь иностранцам
-							</h3>
-							<h4 class="projects__subtitle">
-								Профессиональная помощь с документами
-							</h4>
-						</div>
-					</a>
-				</li>
-			</ul>
-		</section>
-	</div>
+	<section class="school">
+		<span class="school__icon icon-graduation-cap-solid"></span>
+		<h2 class="school__name">
+			Языковая школа
+		</h2>
+		<h3 class="school__subtitle">
+			Давай выучим иностранный язык
+		</h3>
+		<a href="#lang" class="school__arrow">
+			<span class="school__icon-arrow icon-arrow-down"></span>
+		</a>
+	</section>
 
-	<div class="lang">
+	<div class="lang" id="lang">
 		<h2 class="lang__title">
 			Я могу тебя научить говорить на иностранных языках
 		</h2>
@@ -164,13 +126,11 @@
 				<span class="ua lang__item-text">Украинский</span>
 			</li>
 		</ul>
-		<a href="tel:+48728232908" class="phone animate__animated animate__bounceInLeft animate__delay-1s">Позвони мне</a>
 	</div>
 
 	<section class="language-school section animate__animated animate__zoomIn">
-		<h2 class="language-school__title title">Языковая школа</h2>
-		<div class="divider"></div>
 		<h2 class="language-school__subtitle subtitle animate__animated animate__bounceInRight animate__delay-1s">Шаги изучения языков</h2>
+		<div class="divider"></div>
 		<ol class="language-school__list list">
 			<li class="language-school__item item-of-list">Выбираем методику обучения</li>
 			<li class="language-school__item item-of-list">Подбираем подходящий график</li>
@@ -178,6 +138,7 @@
 			<li class="language-school__item item-of-list">Ежедневно беседуем или делаем задания на изучение языка</li>
 			<li class="language-school__item item-of-list">Показываешь отличный результат!</li>
 		</ol>
+		<a href="tel:+48728232908" class="phone animate__animated animate__bounceInLeft animate__delay-1s">Позвони мне</a>
 	</section>
 
 	<footer class="footer">

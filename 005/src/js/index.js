@@ -25,14 +25,18 @@ window.onload = function(){
         mainName: document.querySelector('.main__name'),
         aboutMeTitle: document.querySelector('.about-me__title'),
         aboutMeDescr: document.querySelector('.about-me__descr'),
-        phone: document.querySelector('.phone'),
-        projectsTitle: document.querySelectorAll('.projects__title'),
-        projectsName: document.querySelectorAll('.projects__name'),
-        projectsSubtitle: document.querySelectorAll('.projects__subtitle'),
+        phone: document.querySelectorAll('.phone'),
+        schoolName: document.querySelectorAll('.school__name'),
+        schoolSubtitle: document.querySelectorAll('.school__subtitle'),
         footerTitle: document.querySelector('.footer__title'),
         footerAutorText: document.querySelector('.footer__autor-text'),
         modalTitle: document.querySelector('.modal__title'),
+        languageSchoolSubtitle: document.querySelector('.language-school__subtitle'),
+        languageSchoolItem: document.querySelectorAll('.language-school__item'),
+        langTitle: document.querySelector('.lang__title'),
+        langItem: document.querySelectorAll('.lang__item-text'),
     };
+
     function changeLang(){
         var customLang = localStorage.getItem('customLang');
         var deviceLang = navigator.language.slice(0,2);

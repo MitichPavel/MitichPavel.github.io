@@ -17,6 +17,7 @@ gulp.task('server', function() {
 
 	gulp.watch("src/**/**/*.html").on('change', browserSync.reload);
 	gulp.watch("src/js/*.js").on('change', browserSync.reload);
+	gulp.watch("src/*/languages.json").on('change', browserSync.reload);
 });
 
 gulp.task('styles', function() {
@@ -33,6 +34,7 @@ gulp.task('watch', function() {
 	gulp.watch("src/sass/**/*.+(scss|sass|css)", gulp.parallel('styles'));
 	gulp.watch("src/**/**/*.html").on('change', gulp.parallel('html'));
 	gulp.watch("src/js/**/*.js").on('change', gulp.parallel('scripts'));
+	gulp.watch("src/**/**/languages.json").on('change', gulp.parallel('json'));
 });
 
 gulp.task('html', function() {
@@ -56,4 +58,10 @@ gulp.task('json', function() {
 	.pipe(gulp.dest("dist/"));
 });
 
-gulp.task('default', gulp.parallel('watch', 'server', 'styles', 'html', 'scripts', 'fonts', 'json'));
+gulp.task('img', function() {
+	return gulp.src('src/img/*/*/*')
+	.pipe(imagemin())
+	.pipe(gulp.dest('dist/img'));
+});
+
+gulp.task('default', gulp.parallel('watch', 'server', 'styles', 'html', 'scripts', 'fonts', 'json', 'img'));

@@ -1,7 +1,15 @@
-@media (min-width: 415px) {
-    .projects__link {
-        width: 415px;
+@media (min-width: 280px) {
+    .school__name {
+        font-size: 27px;
     }
+    .school__subtitle {
+        font-size: 21px;
+    }
+    .lang__title {
+        font-size: 21px;
+    }
+}
+@media (min-width: 415px) {
     .modal__operator {
         margin-top: 0;
     }
@@ -32,67 +40,21 @@
     .lang__item:nth-child(2n-1){
         padding-left: 10px;
     }
-    .foreign-help__descr, .foreign-help__list {
-        padding-left: 50px;
-    }
 }
-
-
 @media (min-width: 576px) {
-    .projects__item_xs-hidden {
-        display: block;
-        border: none;
-    }
-    .projects__title_sm-hidden {
-        display: none;
-    }
-    .projects__arrow_sm-hidden {
-        display: none;
-    }
-    .projects__item {
-        margin-bottom: 90px;
-    }
-    .projects__item:nth-child(odd) {
-        border: none;
-    }
-    .projects__item:nth-child(1) {
-        transform: translateX(-80px);
-    }
-    .projects__item:nth-child(3) {
-        transform: translateX(80px);
-    }
-    .projects__link {
-        width: auto;
-        min-height: auto;
-        position: static;
-        padding: 10px;
-    }
-    .projects__icon {
-        width: 80px;
-        height: 80px;
-        padding: 16px 0 0 2px;
-        font-size: 40px;
-        border-width: 4px;
-    }
-    .projects__icon-wrap_help {
-        order: 2;
-    }
-    .projects__descr {
-        font-size: 15px;
-    }
-    .projects__name {
-        font-size: 24px;
-    }
-    .projects__divider {
-        display: none;
-    }
-    .projects__wrap {
-        width: 295px;
-    }
     .descr {
         font-size: 15px;
     }
     .section {
         max-width: 780px;
+    }
+    .school__name {
+        font-size: 35px;
+    }
+    .school__subtitle {
+        font-size: 27px;
+    }
+    .lang__title {
+        font-size: 28px;
     }
 }
